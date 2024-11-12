@@ -14,7 +14,7 @@ class Config:
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://newuser:newuser@cluster0.80t5h.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     
-    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002449877027'))
+    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
     FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "") # FORCE SUB channel link 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "False")  # FORCE SUB ON - OFF
 
